@@ -6,16 +6,20 @@ padding: 20px;
 /*shift command p brings up colors*/
 background-image: url("/img/wood.jpg");
 }
+
 .card {
     /*short hand version of padding, covers all sides*/
     padding: 20px;
     /*adds shadow to the box (horizontal, vertical, blur, color(use rgba)*/
     box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.1);
-    background-color: antiquewhite;
+    background-color: honeydew;
     /*limits width*/
     max-width: 400px;
     /*centers anything in css*/
     margin: 0 auto;
+}
+.space.sameLine {
+    text-align: left;
 }
 #boldTitle {
     font-weight: bold;
@@ -51,11 +55,11 @@ background-image: url("/img/wood.jpg");
     text-align: center;
 }
 .space > button {
-    background: darkslateblue;
+    background: #A5704D;
     color: white;
     border: none;
     padding: 15px;
-    font-weight: bold;
+    font-weight: none;
     border-radius: 4px;
     transition: all .3s ease;
 }
