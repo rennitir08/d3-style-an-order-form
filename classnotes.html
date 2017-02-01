@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/global.css" />
+</head>
+<body>
+   <div class="card">
+        <form method="post" action="">
+            <div class="field">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="first_name" required />
+            </div>
+            <div class="field">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="last_name" required />
+            </div>
+            <div class="field">
+                <label for="referredBy">Referred By</label>
+                <select  id="referredBy" name="referred_by" required />
+                <option value="google">Google</option>
+                <option value="twitter">Twitter</option>
+                <option value="tv">TV Ad</option>
+                <option value="friend"selected>A Friend</option>
+                </select>
+            </div>
+<div class="field labels-wrapping">
+    <label>How would you rate our service?</label>
+    <label><input type="radio" name="rating"value="10">Awesome</label>
+    <label><input type="radio" name="rating"value="5">Just Ok</label>
+    <label><input type="radio" name="rating"value="1">Terrible</label>
+</div>
+
+    <div class="field field-center">
+        <button type="submit">Send</button>
+    </div>
+
+        </form>
+    
+</body>
+</html>
