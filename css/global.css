@@ -59,7 +59,6 @@ background-image: url("/img/wood.jpg");
     color: white;
     border: none;
     padding: 15px;
-    font-weight: none;
     border-radius: 4px;
     transition: all .3s ease;
 }
