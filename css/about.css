@@ -4,7 +4,7 @@ padding: 20px;
 background-image: url("/img/wood.jpg");
 }
 .thanks {
-    background-image: url("/img/transparentwood.jpg");
+    background-image: url(../img/transparentwood.jpg);
     padding: 75px;
     box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.1);
     color:black;
