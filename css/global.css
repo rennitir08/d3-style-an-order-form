@@ -1,4 +1,5 @@
 * {
+/*browser will do the math of the dimensions for you in css*/
     box-sizing: border-box;
 }
 body {
